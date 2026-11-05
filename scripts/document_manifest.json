@@ -1,21 +1,273 @@
 
 [
   {
-    "id": "aws_lambda_developer_guide",
+    "id": "aws_lambda",
     "provider": "AWS",
     "service_name": "Lambda",
     "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
   },
   {
-    "id": "azure_functions_overview",
+    "id": "aws_s3",
+    "provider": "AWS",
+    "service_name": "S3",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+  },
+  {
+    "id": "aws_ec2",
+    "provider": "AWS",
+    "service_name": "EC2",
+    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html"
+  },
+  {
+    "id": "aws_iam",
+    "provider": "AWS",
+    "service_name": "IAM",
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+  },
+  {
+    "id": "aws_vpc",
+    "provider": "AWS",
+    "service_name": "VPC",
+    "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html"
+  },
+  {
+    "id": "aws_sqs",
+    "provider": "AWS",
+    "service_name": "SQS",
+    "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html"
+  },
+  {
+    "id": "aws_sns",
+    "provider": "AWS",
+    "service_name": "SNS",
+    "url": "https://docs.aws.amazon.com/sns/latest/dg/welcome.html"
+  },
+  {
+    "id": "aws_eventbridge",
+    "provider": "AWS",
+    "service_name": "EventBridge",
+    "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html"
+  },
+  {
+    "id": "aws_step_functions",
+    "provider": "AWS",
+    "service_name": "Step Functions",
+    "url": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html"
+  },
+  {
+    "id": "aws_dynamodb",
+    "provider": "AWS",
+    "service_name": "DynamoDB",
+    "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"
+  },
+  {
+    "id": "aws_rds",
+    "provider": "AWS",
+    "service_name": "RDS",
+    "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html"
+  },
+  {
+    "id": "aws_api_gateway",
+    "provider": "AWS",
+    "service_name": "API Gateway",
+    "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html"
+  },
+  {
+    "id": "aws_ecs",
+    "provider": "AWS",
+    "service_name": "ECS",
+    "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html"
+  },
+  {
+    "id": "aws_eks",
+    "provider": "AWS",
+    "service_name": "EKS",
+    "url": "https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html"
+  },
+  {
+    "id": "aws_cloudwatch",
+    "provider": "AWS",
+    "service_name": "CloudWatch",
+    "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html"
+  },
+  {
+    "id": "azure_functions",
     "provider": "AZURE",
     "service_name": "Azure Functions",
     "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview"
   },
   {
-    "id": "gcp_cloud_run_functions_overview",
+    "id": "azure_blob_storage",
+    "provider": "AZURE",
+    "service_name": "Blob Storage",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction"
+  },
+  {
+    "id": "azure_virtual_machines",
+    "provider": "AZURE",
+    "service_name": "Virtual Machines",
+    "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/overview"
+  },
+  {
+    "id": "azure_virtual_network",
+    "provider": "AZURE",
+    "service_name": "Virtual Network",
+    "url": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview"
+  },
+  {
+    "id": "azure_aks",
+    "provider": "AZURE",
+    "service_name": "Azure Kubernetes Service",
+    "url": "https://learn.microsoft.com/en-us/azure/aks/what-is-aks"
+  },
+  {
+    "id": "azure_container_apps",
+    "provider": "AZURE",
+    "service_name": "Container Apps",
+    "url": "https://learn.microsoft.com/en-us/azure/container-apps/overview"
+  },
+  {
+    "id": "azure_service_bus",
+    "provider": "AZURE",
+    "service_name": "Service Bus",
+    "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview"
+  },
+  {
+    "id": "azure_event_grid",
+    "provider": "AZURE",
+    "service_name": "Event Grid",
+    "url": "https://learn.microsoft.com/en-us/azure/event-grid/overview"
+  },
+  {
+    "id": "azure_event_hubs",
+    "provider": "AZURE",
+    "service_name": "Event Hubs",
+    "url": "https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about"
+  },
+  {
+    "id": "azure_logic_apps",
+    "provider": "AZURE",
+    "service_name": "Logic Apps",
+    "url": "https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview"
+  },
+  {
+    "id": "azure_cosmos_db",
+    "provider": "AZURE",
+    "service_name": "Cosmos DB",
+    "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/introduction"
+  },
+  {
+    "id": "azure_sql",
+    "provider": "AZURE",
+    "service_name": "Azure SQL",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview"
+  },
+  {
+    "id": "azure_monitor",
+    "provider": "AZURE",
+    "service_name": "Azure Monitor",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/overview"
+  },
+  {
+    "id": "azure_api_management",
+    "provider": "AZURE",
+    "service_name": "API Management",
+    "url": "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts"
+  },
+  {
+    "id": "azure_key_vault",
+    "provider": "AZURE",
+    "service_name": "Key Vault",
+    "url": "https://learn.microsoft.com/en-us/azure/key-vault/general/overview"
+  },
+  {
+    "id": "gcp_cloud_run",
+    "provider": "GCP",
+    "service_name": "Cloud Run",
+    "url": "https://cloud.google.com/run/docs/overview/what-is-cloud-run"
+  },
+  {
+    "id": "gcp_cloud_functions",
     "provider": "GCP",
     "service_name": "Cloud Run Functions",
     "url": "https://cloud.google.com/functions/docs/concepts/overview"
+  },
+  {
+    "id": "gcp_compute_engine",
+    "provider": "GCP",
+    "service_name": "Compute Engine",
+    "url": "https://cloud.google.com/compute/docs/overview"
+  },
+  {
+    "id": "gcp_cloud_storage",
+    "provider": "GCP",
+    "service_name": "Cloud Storage",
+    "url": "https://cloud.google.com/storage/docs/introduction"
+  },
+  {
+    "id": "gcp_vpc",
+    "provider": "GCP",
+    "service_name": "VPC",
+    "url": "https://cloud.google.com/vpc/docs/overview"
+  },
+  {
+    "id": "gcp_iam",
+    "provider": "GCP",
+    "service_name": "IAM",
+    "url": "https://cloud.google.com/iam/docs/overview"
+  },
+  {
+    "id": "gcp_pubsub",
+    "provider": "GCP",
+    "service_name": "Pub/Sub",
+    "url": "https://cloud.google.com/pubsub/docs/overview"
+  },
+  {
+    "id": "gcp_eventarc",
+    "provider": "GCP",
+    "service_name": "Eventarc",
+    "url": "https://cloud.google.com/eventarc/docs/overview"
+  },
+  {
+    "id": "gcp_workflows",
+    "provider": "GCP",
+    "service_name": "Workflows",
+    "url": "https://cloud.google.com/workflows/docs/overview"
+  },
+  {
+    "id": "gcp_firestore",
+    "provider": "GCP",
+    "service_name": "Firestore",
+    "url": "https://cloud.google.com/firestore/docs/overview"
+  },
+  {
+    "id": "gcp_cloud_sql",
+    "provider": "GCP",
+    "service_name": "Cloud SQL",
+    "url": "https://cloud.google.com/sql/docs/introduction"
+  },
+  {
+    "id": "gcp_gke",
+    "provider": "GCP",
+    "service_name": "Google Kubernetes Engine",
+    "url": "https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview"
+  },
+  {
+    "id": "gcp_cloud_monitoring",
+    "provider": "GCP",
+    "service_name": "Cloud Monitoring",
+    "url": "https://cloud.google.com/monitoring/docs"
+  },
+  {
+    "id": "gcp_api_gateway",
+    "provider": "GCP",
+    "service_name": "API Gateway",
+    "url": "https://cloud.google.com/api-gateway/docs/overview"
+  },
+  {
+    "id": "gcp_secret_manager",
+    "provider": "GCP",
+    "service_name": "Secret Manager",
+    "url": "https://cloud.google.com/secret-manager/docs/overview"
   }
 ]

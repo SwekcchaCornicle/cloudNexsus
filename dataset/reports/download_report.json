@@ -1,32 +1,367 @@
 {
-  "total": 3,
-  "downloaded": 3,
+  "total": 45,
+  "downloaded": 44,
   "skipped": 0,
-  "failed": 0,
+  "failed": 1,
   "results": [
     {
-      "id": "aws_lambda_developer_guide",
+      "id": "aws_lambda",
       "provider": "AWS",
       "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
       "status": "DOWNLOADED",
-      "file_path": "dataset\\raw\\AWS\\aws_lambda_developer_guide.html",
+      "file_path": "dataset\\raw\\AWS\\aws_lambda.html",
       "bytes": 19671
     },
     {
-      "id": "azure_functions_overview",
+      "id": "aws_s3",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_s3.html",
+      "bytes": 62332
+    },
+    {
+      "id": "aws_ec2",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_ec2.html",
+      "bytes": 29015
+    },
+    {
+      "id": "aws_iam",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_iam.html",
+      "bytes": 16322
+    },
+    {
+      "id": "aws_vpc",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_vpc.html",
+      "bytes": 23324
+    },
+    {
+      "id": "aws_sqs",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_sqs.html",
+      "bytes": 23940
+    },
+    {
+      "id": "aws_sns",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/sns/latest/dg/welcome.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_sns.html",
+      "bytes": 22377
+    },
+    {
+      "id": "aws_eventbridge",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_eventbridge.html",
+      "bytes": 15413
+    },
+    {
+      "id": "aws_step_functions",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_step_functions.html",
+      "bytes": 35431
+    },
+    {
+      "id": "aws_dynamodb",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_dynamodb.html",
+      "bytes": 42294
+    },
+    {
+      "id": "aws_rds",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_rds.html",
+      "bytes": 46737
+    },
+    {
+      "id": "aws_api_gateway",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_api_gateway.html",
+      "bytes": 23841
+    },
+    {
+      "id": "aws_ecs",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_ecs.html",
+      "bytes": 21740
+    },
+    {
+      "id": "aws_eks",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_eks.html",
+      "bytes": 28885
+    },
+    {
+      "id": "aws_cloudwatch",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_cloudwatch.html",
+      "bytes": 30223
+    },
+    {
+      "id": "azure_functions",
       "provider": "AZURE",
       "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview",
       "status": "DOWNLOADED",
-      "file_path": "dataset\\raw\\AZURE\\azure_functions_overview.html",
+      "file_path": "dataset\\raw\\AZURE\\azure_functions.html",
       "bytes": 52845
     },
     {
-      "id": "gcp_cloud_run_functions_overview",
+      "id": "azure_blob_storage",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_blob_storage.html",
+      "bytes": 59562
+    },
+    {
+      "id": "azure_virtual_machines",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_virtual_machines.html",
+      "bytes": 72873
+    },
+    {
+      "id": "azure_virtual_network",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_virtual_network.html",
+      "bytes": 59544
+    },
+    {
+      "id": "azure_aks",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/aks/what-is-aks",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_aks.html",
+      "bytes": 64949
+    },
+    {
+      "id": "azure_container_apps",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/container-apps/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_container_apps.html",
+      "bytes": 52091
+    },
+    {
+      "id": "azure_service_bus",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_service_bus.html",
+      "bytes": 67773
+    },
+    {
+      "id": "azure_event_grid",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/event-grid/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_event_grid.html",
+      "bytes": 62245
+    },
+    {
+      "id": "azure_event_hubs",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_event_hubs.html",
+      "bytes": 63922
+    },
+    {
+      "id": "azure_logic_apps",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_logic_apps.html",
+      "bytes": 84524
+    },
+    {
+      "id": "azure_cosmos_db",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/introduction",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_cosmos_db.html",
+      "bytes": 62729
+    },
+    {
+      "id": "azure_sql",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_sql.html",
+      "bytes": 89600
+    },
+    {
+      "id": "azure_monitor",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_monitor.html",
+      "bytes": 57560
+    },
+    {
+      "id": "azure_api_management",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_api_management.html",
+      "bytes": 69506
+    },
+    {
+      "id": "azure_key_vault",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/key-vault/general/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_key_vault.html",
+      "bytes": 55196
+    },
+    {
+      "id": "gcp_cloud_run",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/run/docs/overview/what-is-cloud-run",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_cloud_run.html",
+      "bytes": 238149
+    },
+    {
+      "id": "gcp_cloud_functions",
       "provider": "GCP",
       "url": "https://cloud.google.com/functions/docs/concepts/overview",
       "status": "DOWNLOADED",
-      "file_path": "dataset\\raw\\GCP\\gcp_cloud_run_functions_overview.html",
+      "file_path": "dataset\\raw\\GCP\\gcp_cloud_functions.html",
       "bytes": 129535
+    },
+    {
+      "id": "gcp_compute_engine",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/compute/docs/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_compute_engine.html",
+      "bytes": 367783
+    },
+    {
+      "id": "gcp_cloud_storage",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/storage/docs/introduction",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_cloud_storage.html",
+      "bytes": 215597
+    },
+    {
+      "id": "gcp_vpc",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/vpc/docs/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_vpc.html",
+      "bytes": 174204
+    },
+    {
+      "id": "gcp_iam",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/iam/docs/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_iam.html",
+      "bytes": 188569
+    },
+    {
+      "id": "gcp_pubsub",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/pubsub/docs/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_pubsub.html",
+      "bytes": 165737
+    },
+    {
+      "id": "gcp_eventarc",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/eventarc/docs/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_eventarc.html",
+      "bytes": 137110
+    },
+    {
+      "id": "gcp_workflows",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/workflows/docs/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_workflows.html",
+      "bytes": 155017
+    },
+    {
+      "id": "gcp_firestore",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/firestore/docs/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_firestore.html",
+      "bytes": 2256170
+    },
+    {
+      "id": "gcp_cloud_sql",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/sql/docs/introduction",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_cloud_sql.html",
+      "bytes": 129003
+    },
+    {
+      "id": "gcp_gke",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_gke.html",
+      "bytes": 264264
+    },
+    {
+      "id": "gcp_cloud_monitoring",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/monitoring/docs",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_cloud_monitoring.html",
+      "bytes": 289582
+    },
+    {
+      "id": "gcp_api_gateway",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/api-gateway/docs/overview",
+      "status": "FAILED",
+      "error": "404 Client Error: Not Found for url: https://docs.cloud.google.com/api-gateway/docs/overview"
+    },
+    {
+      "id": "gcp_secret_manager",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/secret-manager/docs/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_secret_manager.html",
+      "bytes": 139523
     }
   ]
 }
