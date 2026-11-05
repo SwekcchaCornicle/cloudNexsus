@@ -1,1 +1,21 @@
-[]
+
+[
+  {
+    "id": "aws_lambda_developer_guide",
+    "provider": "AWS",
+    "service_name": "Lambda",
+    "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+  },
+  {
+    "id": "azure_functions_overview",
+    "provider": "AZURE",
+    "service_name": "Azure Functions",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview"
+  },
+  {
+    "id": "gcp_cloud_run_functions_overview",
+    "provider": "GCP",
+    "service_name": "Cloud Run Functions",
+    "url": "https://cloud.google.com/functions/docs/concepts/overview"
+  }
+]

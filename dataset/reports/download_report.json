@@ -1,0 +1,32 @@
+{
+  "total": 3,
+  "downloaded": 3,
+  "skipped": 0,
+  "failed": 0,
+  "results": [
+    {
+      "id": "aws_lambda_developer_guide",
+      "provider": "AWS",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AWS\\aws_lambda_developer_guide.html",
+      "bytes": 19671
+    },
+    {
+      "id": "azure_functions_overview",
+      "provider": "AZURE",
+      "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\AZURE\\azure_functions_overview.html",
+      "bytes": 52845
+    },
+    {
+      "id": "gcp_cloud_run_functions_overview",
+      "provider": "GCP",
+      "url": "https://cloud.google.com/functions/docs/concepts/overview",
+      "status": "DOWNLOADED",
+      "file_path": "dataset\\raw\\GCP\\gcp_cloud_run_functions_overview.html",
+      "bytes": 129535
+    }
+  ]
+}

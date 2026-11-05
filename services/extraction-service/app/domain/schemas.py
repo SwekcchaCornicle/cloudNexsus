@@ -53,7 +53,7 @@ class ExtractedRelationship(BaseModel):
     source_entity: str
     target_entity: str
     predicate: str = Field(min_length=2, max_length=100)
-    evidence: str = Field(min_length=5, max_length=1500)
+    evidence: str = Field(min_length=5, max_length=1000)
     confidence: float = Field(ge=0.0, le=1.0)
 
 class KnowledgeExtraction(BaseModel):
