@@ -53,7 +53,11 @@ class ExtractedRelationship(BaseModel):
     source_entity: str
     target_entity: str
     predicate: str = Field(min_length=2, max_length=100)
-    evidence: str = Field(min_length=5, max_length=1000)
+    # Evidence must be an exact source excerpt. Its natural upper bound is the
+    # source chunk length, so a fixed 1000/1500-character cap rejects valid
+    # evidence from longer chunks. ExtractionService verifies that the
+    # normalized evidence is present in the original chunk before saving.
+    evidence: str = Field(min_length=5)
     confidence: float = Field(ge=0.0, le=1.0)
 
 class KnowledgeExtraction(BaseModel):
