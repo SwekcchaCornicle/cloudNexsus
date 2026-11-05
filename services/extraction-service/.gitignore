@@ -1,1 +1,4 @@
 .venv/\n__pycache__/\n.pytest_cache/\n*.py[cod]\ndata/\n.env\n
+.env
+.env.*
+!.env.example
